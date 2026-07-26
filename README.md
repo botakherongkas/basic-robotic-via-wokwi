@@ -108,9 +108,11 @@ Throughout this repository, I continuously practice and improve skills in:
 ## Roadmap
 
 - [x] Arduino Fundamentals
-- [x] LEDs
+- [x] LEDs rgb
+- [x] LEDs trafic light
 - [x] Push Buttons
 - [x] Potentiometers
+- [x] Buzzer
 - [ ] Analog Sensors
 - [ ] Ultrasonic Sensor
 - [ ] Servo Motor

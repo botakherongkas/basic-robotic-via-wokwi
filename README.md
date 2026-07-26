@@ -130,6 +130,11 @@ This repository represents an ongoing learning journey rather than a finished pr
 Keeping these early projects is important, as they provide a record of technical growth and demonstrate how knowledge develops through consistent practice and experimentation.
 
 ---
+## Project Philosophy
+
+> "Learning robotics is not about building the most complex system. It is about understanding one concept at a time and applying it consistently."
+
+This repository emphasizes continuous learning, experimentation, and documentation. Every project represents a step toward a deeper understanding of embedded systems rather than a finished product.
 
 ## Acknowledgments
 

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Hkmalll",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -28.2, "left": 37.8, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -174.1, "left": 355, "attrs": {} },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot2",
+      "top": -177.4,
+      "left": -87.4,
+      "attrs": { "travelLength": "30" }
+    }
+  ],
+  "connections": [
+    [ "pot2:GND", "uno:GND.1", "black", [ "v0", "h24.4" ] ],
+    [ "pot1:GND", "uno:GND.3", "black", [ "v316.8", "h-163.2" ] ],
+    [ "pot1:SIG", "uno:A1", "green", [ "v326.4", "h-144.4" ] ],
+    [ "pot2:SIG", "uno:A0", "gold", [ "h-48", "v335.2", "h384", "v-67.2" ] ],
+    [ "pot2:VCC", "uno:5V", "red", [ "h-86.4", "v374.4", "h374.4" ] ],
+    [ "pot1:VCC", "uno:5V", "red", [ "v345.6", "h-202.4" ] ]
+  ],
+  "dependencies": {}
+}
